@@ -3,11 +3,11 @@ function clickOMatic() {
 }
 
 window.onload = function() {
+    ScrollReveal().reveal('.site', {delay: 1000});
     const click = document.getElementById('click');
 
     click.addEventListener("click", (event) => {
         clickOMatic();
     });
-};
 
-ScrollReveal().reveal('.site');
+};
